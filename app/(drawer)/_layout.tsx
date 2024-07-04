@@ -110,7 +110,7 @@ const CustomDrawerContent = (props:any) => {
 export default function Layout() {
   return (
     <Drawer drawerContent={(props) => <CustomDrawerContent {...props} />} screenOptions={{headerShown: false}}>
-      <Drawer.Screen name="/(tab)" options={{headerShown: true}} />
+      {/* <Drawer.Screen name="/(tabs)" options={{headerShown: true}} /> */}
      
     </Drawer>
   );
