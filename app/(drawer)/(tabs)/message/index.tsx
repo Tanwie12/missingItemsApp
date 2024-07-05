@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function mike() {
   return (
-    <View>
+    <View className='p-2'>
       <Text>mike</Text>
     </View>
   )
